@@ -1,12 +1,26 @@
 import React, {Component} from 'react';
 import './chatWindow.css';
 
+let newChannelInput;
+
 export default class ChatWindow extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {};
+	}
+
+	handleNewChannelCreation(event) {
+		event.preventDefault();
+		console.log(newChannelInput.value);
+		newChannelInput.value = "";
+		this.setState({displayNewChannelInput: false});
+	}
+
 	render() {
 		return (
 			<main>
 				<section>
-					<h2>Channels</h2>
+					<h2>Channels {this.state.displayNewChannelInput ? <form onSubmit={this.handleNewChannelCreation.bind(this)}><input type="text" ref={node => newChannelInput = node} /></form> : <button onClick={() => {this.setState({displayNewChannelInput: true})}}>+</button>}</h2>
 					<ul>
 						{this.props.data.channels.map(channel => <li className={this.props.data.currentRoom.type==='channel' && this.props.data.currentRoom.id===channel.id ? 'active' : ''} key={channel.id}>{channel.name}</li>)}
 					</ul>
