@@ -1,0 +1,104 @@
+{
+	"currentRoom": {
+		"type": "direct",
+		"id": "0013"
+	},
+	"channels": [
+		{
+			"name": "#general",
+			"id": "0001",
+			"messages": [
+			  {
+			    "message": "Labore consequat minim est duis cillum aliquip excepteur dolore pariatur."
+			  },
+			  {
+			    "message": "Est ut pariatur exercitation amet tempor Lorem."
+			  },
+			  {
+			    "message": "Qui irure reprehenderit aliquip veniam et."
+			  },
+			  {
+			    "message": "Eiusmod in anim esse aliquip."
+			  },
+			  {
+			    "message": "Aliquip aliqua cupidatat aliquip irure est sint excepteur elit."
+			  }
+			]
+		},
+		{"name": "#random", "id": "0002",
+		"messages": [
+			  {
+			    "message": "Eu eu fugiat minim commodo duis magna consequat quis culpa."
+			  },
+			  {
+			    "message": "Ea occaecat laborum in voluptate cillum."
+			  },
+			  {
+			    "message": "Commodo incididunt ex enim consectetur elit sunt id velit elit do."
+			  },
+			  {
+			    "message": "Eu magna aliquip non mollit ullamco mollit ea consequat."
+			  }
+			]
+		}
+	],
+	"direct": [
+		{"name": "Raghu Prathap", "id": "0011",
+			"messages": [
+			  {
+			    "message": "Aliquip esse pariatur proident aliquip tempor anim laborum aute laborum."
+			  },
+			  {
+			    "message": "Do pariatur sunt incididunt laborum occaecat in enim aute."
+			  },
+			  {
+			    "message": "Magna nulla enim est laboris est est."
+			  },
+			  {
+			    "message": "Do cupidatat deserunt anim consectetur enim occaecat."
+			  },
+			  {
+			    "message": "Amet do proident Lorem do mollit mollit consequat enim non exercitation."
+			  }
+			]
+		},
+		{"name": "Basavaraj Kodgalli", "id": "0012",
+		"messages": [
+		  {
+		    "message": "Velit proident aliquip aute nulla cillum cupidatat nostrud id sit eiusmod est."
+		  },
+		  {
+		    "message": "Nostrud veniam cillum duis excepteur incididunt."
+		  },
+		  {
+		    "message": "Incididunt exercitation commodo ea ad sit velit dolore consectetur amet ea."
+		  },
+		  {
+		    "message": "Adipisicing adipisicing labore consectetur mollit laborum tempor mollit amet culpa."
+		  },
+		  {
+		    "message": "Duis quis et fugiat labore ex minim velit."
+		  }
+		]
+		},
+		{"name": "Sagar Patke", "id": "0013",
+			"messages": [
+		  {
+		    "message": "Velit proident aliquip aute nulla cillum cupidatat nostrud id sit eiusmod est."
+		  },
+		  {
+		    "message": "Nostrud veniam cillum duis excepteur incididunt."
+		  },
+		  {
+		    "message": "Incididunt exercitation commodo ea ad sit velit dolore consectetur amet ea."
+		  },
+		  {
+		    "message": "Adipisicing adipisicing labore consectetur mollit laborum tempor mollit amet culpa."
+		  },
+		  {
+		    "message": "Duis quis et fugiat labore ex minim velit."
+		  }
+		]
+		}
+	]
+}
