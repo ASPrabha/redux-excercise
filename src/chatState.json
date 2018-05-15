@@ -1,7 +1,7 @@
 {
 	"currentRoom": {
-		"type": "direct",
-		"id": "0013"
+		"roomType": "channels",
+		"id": "0002"
 	},
 	"channels": [
 		{
