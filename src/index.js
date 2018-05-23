@@ -24,14 +24,20 @@ const mapStateToProps = state => {
 ReactDOM.render(<ChatWindow store={store}/>, document.getElementById('root'));
 
 setTimeout(() => {
-	/*store.dispatch({
-		type: 'CHANGE_CURRENT_ROOM',
-		roomType: 'channels',
-		id: '0001'
-	});*/
-	store.dispatch({
-		type: 'ADD_NEW_CHANNEL',
-		name: '#casual',
-		id: '003'
-	});
+// 	store.dispatch({
+// 		type: 'CHANGE_CURRENT_ROOM',
+// 		roomType: 'channels',
+// 		id: '0001'
+// 	});
+// 	store.dispatch({
+// 		type: 'ADD_NEW_CHANNEL',
+// 		name: '#casual',
+// 		id: '003'
+// 	});
+
+	// store.dispatch({
+	// 	type: 'SEND_NEW_MSG',
+	// 	msg: 'Hello there'
+	// });
+
 }, 5000);
